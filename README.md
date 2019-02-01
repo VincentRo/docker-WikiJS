@@ -16,3 +16,13 @@ Start the configuration :
  node wiki configure
  
 Configure the new WikiJS with a browser.
+_______________________________________
+
+Avec docker-compose, après avoir build les deux containers :
+
+docker-compose up -d
+
+puis sudo docker exec -ti *wikijs* bash 
+
+node wiki configure
+
